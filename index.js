@@ -35,7 +35,7 @@ var userkey = "test_TEST";
             if (answer != "") {
                 userkey = answer;
             };
-            console.log(`KanaAPIユーザのアクセスキー(パスワード)は、${userkey} に設定されました。\n`);
+            console.log(`KanaAPIユーザのパスワードは、${userkey} に設定されました。\n`);
             resolve();
         });
     });
