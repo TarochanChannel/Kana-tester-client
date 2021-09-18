@@ -6,7 +6,7 @@ const readlineInterface = readline.createInterface({
     output: process.stdout
 });
 
-var url = "http://localhost:1057/api/api.json";
+var url = "http://kana.renorari.net/api/api.json";
 var userid = "tester";
 var userkey = "test_TEST";
 var customize_url = "https://raw.githubusercontent.com/TarochanChannel/Kana-dictionary/main/tester.kana";
